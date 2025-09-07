@@ -1,0 +1,28 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "types": ["react-native", "jest", "node"],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "tests/**/*",
+    "./src/**/*",
+    "index.d.ts",
+    "*.mjs",
+    ".*.mjs",
+    "*.js",
+    ".*.js",
+    "*.ts",
+    ".prettierrc.mjs"
+  ],
+  "exclude": ["node_modules", "_", "android", "ios"]
+}

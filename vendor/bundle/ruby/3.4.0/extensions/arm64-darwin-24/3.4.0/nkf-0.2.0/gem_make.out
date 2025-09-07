@@ -1,0 +1,18 @@
+current directory: /Users/md.sohantalukder/Development/practices/MindPad/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/md.sohantalukder/Development/practices/MindPad/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250907-91285-pz68pm sitelibdir\=./.gem.20250907-91285-pz68pm clean
+
+current directory: /Users/md.sohantalukder/Development/practices/MindPad/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250907-91285-pz68pm sitelibdir\=./.gem.20250907-91285-pz68pm
+compiling nkf.c
+linking shared-object nkf.bundle
+
+current directory: /Users/md.sohantalukder/Development/practices/MindPad/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250907-91285-pz68pm sitelibdir\=./.gem.20250907-91285-pz68pm install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20250907-91285-pz68pm
+
+current directory: /Users/md.sohantalukder/Development/practices/MindPad/vendor/bundle/ruby/3.4.0/gems/nkf-0.2.0/ext/nkf
+make DESTDIR\= sitearchdir\=./.gem.20250907-91285-pz68pm sitelibdir\=./.gem.20250907-91285-pz68pm clean
