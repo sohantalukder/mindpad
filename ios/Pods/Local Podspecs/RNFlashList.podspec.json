@@ -17,7 +17,7 @@
   "requires_arc": true,
   "swift_versions": "5.0",
   "pod_target_xcconfig": {
-    "OTHER_SWIFT_FLAGS": "$(inherited) -D RCT_NEW_ARCH_ENABLED",
+    "OTHER_SWIFT_FLAGS": "$(inherited) -D RCT_NEW_ARCH_ENABLED -DRCT_NEW_ARCH_ENABLED",
     "HEADER_SEARCH_PATHS": [
       "\"$(PODS_ROOT)/Headers/Private/Yoga\"",
       "$(PODS_ROOT)/glog",
@@ -29,9 +29,9 @@
       "$(PODS_ROOT)/RCT-Folly"
     ],
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
-    "OTHER_CPLUSPLUSFLAGS": "$(inherited) "
+    "OTHER_CPLUSPLUSFLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED=1 "
   },
-  "compiler_flags": "",
+  "compiler_flags": "-DRCT_NEW_ARCH_ENABLED=1",
   "dependencies": {
     "React-Core": [],
     "React-RCTFabric": [],

@@ -29,10 +29,10 @@
       "$(PODS_ROOT)/SocketRocket",
       "$(PODS_ROOT)/RCT-Folly"
     ],
-    "OTHER_CPLUSPLUSFLAGS": "$(inherited) ",
-    "OTHER_SWIFT_FLAGS": "$(inherited)"
+    "OTHER_CPLUSPLUSFLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED=1 ",
+    "OTHER_SWIFT_FLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED"
   },
-  "compiler_flags": "-x objective-c++",
+  "compiler_flags": "-x objective-c++  -DRCT_NEW_ARCH_ENABLED=1",
   "libraries": [
     "z",
     "c++"

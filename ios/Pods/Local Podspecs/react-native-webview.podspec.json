@@ -6,7 +6,7 @@
   "authors": "Jamon Holmgren <jamon@infinite.red>",
   "homepage": "https://github.com/react-native-webview/react-native-webview#readme",
   "platforms": {
-    "ios": "9.0",
+    "ios": "11.0",
     "osx": "10.13",
     "visionos": "1.0"
   },
@@ -15,7 +15,7 @@
     "tag": "v13.16.0"
   },
   "source_files": "apple/**/*.{h,m,mm,swift}",
-  "compiler_flags": "",
+  "compiler_flags": "-DRCT_NEW_ARCH_ENABLED=1",
   "dependencies": {
     "React-Core": [],
     "React-RCTFabric": [],
@@ -49,7 +49,7 @@
   "pod_target_xcconfig": {
     "HEADER_SEARCH_PATHS": "\"$(PODS_ROOT)/Headers/Private/Yoga\"",
     "CLANG_CXX_LANGUAGE_STANDARD": "c++20",
-    "OTHER_CPLUSPLUSFLAGS": "$(inherited) ",
-    "OTHER_SWIFT_FLAGS": "$(inherited)"
+    "OTHER_CPLUSPLUSFLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED=1 ",
+    "OTHER_SWIFT_FLAGS": "$(inherited) -DRCT_NEW_ARCH_ENABLED"
   }
 }
